@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui;
+  padding: 16px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:active {
+  background: #eee;
+}
+
+#controls {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
