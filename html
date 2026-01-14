@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Music PWA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Library</h1>
+
+  <input type="file" id="filePicker" accept="audio/*" multiple>
+
+  <ul id="library"></ul>
+
+  <div id="controls">
+    <button id="play">▶</button>
+    <button id="pause">⏸</button>
+  </div>
+
+  <audio id="player"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
